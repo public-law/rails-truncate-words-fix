@@ -65,8 +65,6 @@ ruby -Itest test/truncate_words_test.rb
 
 ## Why?
 
-The underlying fix replaces `#{sep}.*` with `(?=#{sep})` at the end of Rails' regular expression. Benchmarks and memory measurements are in the [upstream PR](https://github.com/rails/rails/pull/59848).
-
-Once Rails merges and ships the fix, remove this gem from the Gemfile.
+The underlying fix replaces `#{sep}.*` with `(?=#{sep})` at the end of Rails' regular expression.
 
 MIT licensed.
