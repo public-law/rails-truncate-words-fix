@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.description = "A Rails Railtie applying the optimization from rails/rails#59848."
   spec.homepage = "https://github.com/public-law/rails-truncate-words-fix"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1"
+  spec.required_ruby_version = ">= 3.4"
   spec.files = Dir["lib/**/*.rb", "README.md", "LICENSE"]
   spec.require_paths = ["lib"]
 
