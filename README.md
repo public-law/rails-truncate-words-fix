@@ -1,7 +1,5 @@
 # rails-truncate-words-fix
 
-> Work in progress - not yet published to Rubygems.
-
 Speeds up Active Support's `String#truncate_words` and avoids transient memory use when truncating long strings.
 
 This gem packages the **one-line regex optimization** in [rails/rails#59848](https://github.com/rails/rails/pull/59848). The original Rails regex consumes the entire suffix after the truncation point. This replacement uses a positive lookahead, so it stops matching at the requested boundary without changing the public API.
