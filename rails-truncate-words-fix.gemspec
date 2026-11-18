@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rails-truncate-words-fix"
-  spec.version = "0.1.0"
+  spec.version = "0.1.1"
   spec.authors = ["Robert Shecter"]
   spec.summary = "Avoid unnecessary suffix matching in Active Support's String#truncate_words"
   spec.description = "A Rails Railtie applying the optimization from rails/rails#59848."
